@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-package todennus.proto.api.user;
+package todennus.proto.service;
 
-option go_package = "github.com/xybor/todennus-backend/adapter/grpc/gen/api";
+option go_package = "github.com/xybor/todennus-backend/adapter/grpc/gen/service";
 
 import "dto/user.proto";
 
