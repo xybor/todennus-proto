@@ -6,8 +6,6 @@ option go_package = "github.com/xybor/todennus-backend/adapter/grpc/gen/service"
 
 import "dto/user.proto";
 
-// The greeter service definition.
 service User {
-    // Sends a greeting
-    rpc Validate (todennus.proto.dto.UserValidateRequest) returns (dto.UserValidateResponse) {}
+    rpc Validate (dto.UserValidateRequest) returns (dto.UserValidateResponse) {}
 }

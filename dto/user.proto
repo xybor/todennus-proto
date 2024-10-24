@@ -12,5 +12,5 @@ message UserValidateRequest {
 }
 
 message UserValidateResponse {
-    todennus.proto.dto.resource.User user = 1;
+    resource.User user = 1;
 }
